@@ -2,6 +2,8 @@
 
 Une app web pour s'entraîner au **Na'vi**, la langue créée par Paul Frommer pour les films *Avatar*. Elle est en français et pensée pour le téléphone.
 
+**Ouvrir l'app : https://merry-goblin.github.io/tinan-lenavi/**
+
 Elle suit un parcours de 14 leçons, des sons de la langue jusqu'à la conversation :
 
 - **Séance du jour** : cartes de vocabulaire, QCM, saisie et étiquettes à placer, avec révision espacée ;
@@ -29,6 +31,27 @@ En appui : [Kelutral](https://kelutral.org/), *[Na'vi in a Nutshell](https://fil
 Le contenu a été préparé avec l'aide de Claude, qui n'a jamais servi de source.
 
 Projet personnel d'apprentissage, sans lien avec les ayants droit d'*Avatar* ni avec LearnNavi.
+
+## Licences
+
+Ce dépôt réunit deux sortes de travail, chacune sous sa licence.
+
+| Quoi | Licence | Fichier |
+| --- | --- | --- |
+| **Le code** : la structure HTML, les styles CSS et le JavaScript de `index.html` | MIT | [`LICENSE`](LICENSE) |
+| **Le contenu pédagogique** : les leçons, les règles et leurs explications, les tableaux et les exemples, les sens des mots, les exercices, leurs pièges et leurs messages, les motifs d'erreur. Dans `index.html`, il forme le bloc de données `window.__CONTENU` | CC BY-SA 4.0 | [`LICENSE-CONTENT`](LICENSE-CONTENT) |
+
+Pour réutiliser le contenu, il faut :
+- citer *Tinan leNa'vi*, par merry-goblin, avec le lien https://github.com/merry-goblin/tinan-lenavi ;
+- indiquer ce qui a été modifié ;
+- partager le résultat sous la même licence, CC BY-SA 4.0.
+
+Le code peut être réutilisé librement, en gardant la mention de licence MIT.
+
+Ce que ces licences ne couvrent pas :
+- **la langue na'vi elle-même** : les licences portent sur la façon dont Tinan l'explique et la fait pratiquer, pas sur ses mots ni sur sa grammaire ;
+- **les sources citées**, qui gardent leurs propres conditions. Le Horen (William S. Annis, éditeur) est sous CC BY-SA 4.0 : c'est l'une des raisons du choix de cette licence pour le contenu ;
+- **les polices** Inter, Space Grotesk et Literata, sous SIL Open Font License 1.1.
 
 ## Pour la maintenance
 
