@@ -12,11 +12,17 @@ Elle suit un parcours de 14 leçons, des sons de la langue jusqu'à la conversat
 - **Bilans de leçon**, **fiches** de grammaire et de vocabulaire, **lexique** ;
 - **Export** des fiches et de la progression en Markdown.
 
-Après une erreur, « Voir la règle » affiche la règle concernée, avec sa source.
+Après une erreur, « Voir la règle » affiche la règle concernée, avec sa source. Un lien « Écouter » ouvre la page du mot dans le dictionnaire [Reykunyu](https://reykunyu.lu/), qui a des enregistrements pour une partie des mots.
+
+Quelle part du Na'vi officiel Tinan couvre-t-il ? Environ 7,6 % du vocabulaire et la moitié de la grammaire : voir [COUVERTURE.md](COUVERTURE.md).
+
+## Signaler une erreur
+
+Le bouton « Signaler » d'un exercice ou d'une fiche ouvre un [ticket](https://github.com/merry-goblin/tinan-lenavi/issues) prérempli sur ce dépôt. Il faut un compte GitHub, et le ticket est public.
 
 ## Ta progression
 
-Rien n'est envoyé nulle part. La progression est enregistrée dans le navigateur, sur l'appareil utilisé. Elle n'est donc pas partagée entre deux appareils, et elle disparaît si tu effaces les données du site. On peut aussi l'effacer depuis les Réglages.
+Rien n'est envoyé nulle part, et la page ne charge rien depuis un autre site : les polices sont livrées avec elle. La progression est enregistrée dans le navigateur, sur l'appareil utilisé. Elle n'est donc pas partagée entre deux appareils, et elle disparaît si tu effaces les données du site. On peut aussi l'effacer depuis les Réglages.
 
 ## Sources
 
@@ -51,8 +57,8 @@ Le code peut être réutilisé librement, en gardant la mention de licence MIT.
 Ce que ces licences ne couvrent pas :
 - **la langue na'vi elle-même** : les licences portent sur la façon dont Tinan l'explique et la fait pratiquer, pas sur ses mots ni sur sa grammaire ;
 - **les sources citées**, qui gardent leurs propres conditions. Le Horen (William S. Annis, éditeur) est sous CC BY-SA 4.0 : c'est l'une des raisons du choix de cette licence pour le contenu ;
-- **les polices** Inter, Space Grotesk et Literata, sous SIL Open Font License 1.1.
+- **les polices** Inter, Space Grotesk et Literata, dans le dossier `fonts`, sous SIL Open Font License 1.1 (licences jointes : `fonts/OFL-*.txt`).
 
 ## Pour la maintenance
 
-`index.html` est généré, il ne se modifie pas à la main. Il réunit l'app Tinan, son contenu et une couche qui remplace les services de Claude dont se sert la version d'origine. La progression va dans le `localStorage` du navigateur, sous des clés `tinan/<chemin>`.
+`index.html` est généré, il ne se modifie pas à la main. C'est l'app Tinan, précédée de son contenu (le bloc `window.__CONTENU`). Le même code tourne dans Claude, où il utilise la base de l'artefact, et seul, où il utilise le contenu intégré et garde la progression dans le `localStorage` du navigateur, sous des clés `tinan/<chemin>`.
