@@ -21,9 +21,13 @@ Elle suit un parcours de 14 leçons, des sons de la langue jusqu'à la conversat
 - **Bilans de leçon**, **fiches** de grammaire et de vocabulaire, **lexique** ;
 - **Export** des fiches et de la progression en Markdown.
 
-Après une erreur, « Voir la règle » affiche la règle concernée, avec sa source. Un lien « Écouter » ouvre la page du mot dans le dictionnaire [Reykunyu](https://reykunyu.lu/), qui a des enregistrements pour une partie des mots.
+Après une erreur, « Voir la règle » affiche la règle concernée, avec sa source. Un lien « Écouter » ouvre la page du mot dans le dictionnaire [Reykunyu](https://reykunyu.lu/), qui a des enregistrements pour une partie des mots, avec les voix de Plumps et de tsyili.
 
 Quelle part du Na'vi officiel Tinan couvre-t-il ? Environ 7,6 % du vocabulaire et la moitié de la grammaire : voir [COUVERTURE.md](COUVERTURE.md).
+
+## Pour aller plus loin
+
+Tinan sert à s'entraîner : les fiches expliquent chaque règle, mais ne forment pas un cours complet. Pour des leçons complètes et des gens avec qui parler, voir [Kelutral](https://kelutral.org/), dont le Discord propose des leçons de Na'vi chaque semaine, et [LearnNavi](https://learnnavi.org/), avec son forum et ses ressources.
 
 ## Signaler une erreur
 
@@ -70,4 +74,4 @@ Ce que ces licences ne couvrent pas :
 
 ## Pour la maintenance
 
-`index.html` est généré, il ne se modifie pas à la main. C'est l'app Tinan, précédée de son contenu (le bloc `window.__CONTENU`), avec les balises de partage (image `og-image.png`) ajoutées à la génération. Le même code tourne dans Claude, où il utilise la base de l'artefact, et seul, où il utilise le contenu intégré et garde la progression dans le `localStorage` du navigateur, sous des clés `tinan/<chemin>`. Les captures sont dans `docs/screenshots`.
+`index.html` est généré, il ne se modifie pas à la main. C'est l'app Tinan, précédée de son contenu (le bloc `window.__CONTENU`), avec les balises de partage ajoutées à la génération. L'image d'aperçu des liens (`og-image.png`) et les captures de `docs/screenshots` se refont avec un script à part. Le même code tourne dans Claude, où il utilise la base de l'artefact, et seul, où il utilise le contenu intégré et garde la progression dans le `localStorage` du navigateur, sous des clés `tinan/<chemin>`.
