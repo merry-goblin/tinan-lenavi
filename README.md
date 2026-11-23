@@ -1,64 +1,88 @@
 # Tinan leNa'vi
 
-Une app web pour s'entraîner au **Na'vi**, la langue créée par Paul Frommer pour les films *Avatar*. Elle est en français et pensée pour le téléphone.
+**Learn Na'vi, the language Paul Frommer created for the *Avatar* films, one short session at a time.**
 
-**Ouvrir l'app : https://merry-goblin.github.io/tinan-lenavi/**
+**[▶ Open the app](https://merry-goblin.github.io/tinan-lenavi/)** · free · no account · works on your phone · English and French · [Version française](README.fr.md)
 
-Elle suit un parcours de 14 leçons, des sons de la langue jusqu'à la conversation :
+<p align="center">
+  <img src="docs/screenshots/home.png" width="200" alt="Home screen: today's session and course progress">
+  <img src="docs/screenshots/feedback.png" width="200" alt="After a mistake: the expected answer and why">
+  <img src="docs/screenshots/error-log.png" width="200" alt="Error log: each kind of mistake, until it is mastered">
+  <img src="docs/screenshots/sheets.png" width="200" alt="Grammar and vocabulary sheets, with their sources">
+</p>
 
-- **Séance du jour** : cartes de vocabulaire, QCM, saisie et étiquettes à placer, avec révision espacée ;
-- **Entraînement libre** par leçon, type d'exercice ou notion ;
-- **Carnet d'erreurs** : chaque erreur est classée et revient jusqu'à être maîtrisée ;
-- **Bilans de leçon**, **fiches** de grammaire et de vocabulaire, **lexique** ;
-- **Export** des fiches et de la progression en Markdown.
+## What it does
 
-Après une erreur, « Voir la règle » affiche la règle concernée, avec sa source. Un lien « Écouter » ouvre la page du mot dans le dictionnaire [Reykunyu](https://reykunyu.lu/), qui a des enregistrements pour une partie des mots.
+Tinan follows a 14-lesson course, from the sounds of the language to holding a conversation. It has 58 grammar rules, 247 words and 595 exercises.
 
-Quelle part du Na'vi officiel Tinan couvre-t-il ? Environ 7,6 % du vocabulaire et la moitié de la grammaire : voir [COUVERTURE.md](COUVERTURE.md).
+- **Daily session.** Flashcards, multiple choice, typed answers, forms to build and labels to place, with spaced review so words come back just before you forget them.
+- **It tracks your mistakes.** A wrong answer is never just "wrong". Tinan tells you what was expected and why, then files the mistake under one of 69 error patterns: lenition forgotten, infix in the wrong place, missing case ending… The pattern stays in your **error log** until you get it right three times in a row.
+- **Free practice.** Pick a lesson, an exercise type or a grammar topic (cases, infixes, lenition, numbers in base 8…).
+- **Sheets and lexicon.** Every rule and word you have studied, with tables and examples.
+- **Lesson tests** to mark a lesson as passed, and **export** of your sheets and progress as Markdown.
+- **Listen.** A link opens the word in the [Reykunyu](https://reykunyu.lu/) dictionary, which has recordings for many words.
 
-## Signaler une erreur
+## The course
 
-Le bouton « Signaler » d'un exercice ou d'une fiche ouvre un [ticket](https://github.com/merry-goblin/tinan-lenavi/issues) prérempli sur ce dépôt. Il faut un compte GitHub, et le ticket est public.
+| | Lesson | | Lesson |
+| --- | --- | --- | --- |
+| 1 | The basics | 8 | Lenition |
+| 2 | Verbs and infixes | 9 | The subjunctive and subordinate clauses |
+| 3 | Pronouns | 10 | Numbers in base 8 |
+| 4 | Transitive and intransitive | 11 | Adverbs and negation |
+| 5 | Adjectives | 12 | Participles |
+| 6 | Adpositions | 13 | Formal and informal register |
+| 7 | Questions | 14 | Conversation |
 
-## Ta progression
+The interface is available in English and French. In English, lessons 1 to 11 are ready; 12 to 14 are on their way.
 
-Rien n'est envoyé nulle part, et la page ne charge rien depuis un autre site : les polices sont livrées avec elle. La progression est enregistrée dans le navigateur, sur l'appareil utilisé. Elle n'est donc pas partagée entre deux appareils, et elle disparaît si tu effaces les données du site. On peut aussi l'effacer depuis les Réglages.
+How much of Na'vi does that cover? About 7.6% of the official vocabulary and half of the grammar in the reference grammar. That is enough to build real sentences, but it is a starting point. See [COUVERTURE.md](COUVERTURE.md) (in French) for the details.
 
-## Sources
+## Every rule is sourced
 
-Chaque règle de l'app indique sa source et sa date de vérification. Les références principales sont :
+Na'vi has a careful community and an official source, so Tinan does not make anything up. Each rule shows where it comes from and when it was checked. The main references are:
 
-- [Horen Lì'fyayä leNa'vi](https://files.learnnavi.org/docs/horen-lenavi.pdf), la grammaire de référence de LearnNavi ;
-- le [Concise Na'vi Dictionary](https://files.learnnavi.org/dicts/NaviPlainDictionary.pdf) de LearnNavi ;
-- [Na'viteri](https://naviteri.org/), le blog de Paul Frommer.
+- [Horen Lì'fyayä leNa'vi](https://files.learnnavi.org/docs/horen-lenavi.pdf), the reference grammar;
+- the [Concise Na'vi Dictionary](https://files.learnnavi.org/dicts/NaviPlainDictionary.pdf) from LearnNavi;
+- [Na'viteri](https://naviteri.org/), Paul Frommer's blog.
 
-En appui : [Kelutral](https://kelutral.org/), *[Na'vi in a Nutshell](https://files.learnnavi.org/docs/Navi_in_a_Nutshell.pdf)*, Wikipédia et Wikibooks. Les formes dérivées ont été contrôlées avec le conjugateur de [Reykunyu](https://reykunyu.lu/).
+Also used: [Kelutral](https://kelutral.org/), *[Na'vi in a Nutshell](https://files.learnnavi.org/docs/Navi_in_a_Nutshell.pdf)*, Wikipedia and Wikibooks. Derived forms were checked with the [Reykunyu](https://reykunyu.lu/) conjugator.
 
-Le contenu a été préparé avec l'aide de Claude, qui n'a jamais servi de source.
+The content was prepared with the help of Claude (Anthropic's AI), which was never used as a source.
 
-Projet personnel d'apprentissage, sans lien avec les ayants droit d'*Avatar* ni avec LearnNavi.
+## Found a mistake?
+
+Please tell me. The **Report** button on any exercise or sheet opens a pre-filled [issue](https://github.com/merry-goblin/tinan-lenavi/issues) on this repository (you need a GitHub account, and the issue is public). Corrections from experienced speakers are very welcome.
+
+## Your progress stays with you
+
+Nothing is sent anywhere, and the page loads nothing from other sites: the fonts ship with it. Your progress is saved in your browser, on the device you use. It is not shared between devices, and it disappears if you clear the site's data. You can also erase it from Settings.
 
 ## Licences
 
-Ce dépôt réunit deux sortes de travail, chacune sous sa licence.
+This repository holds two kinds of work, each under its own licence.
 
-| Quoi | Licence | Fichier |
+| What | Licence | File |
 | --- | --- | --- |
-| **Le code** : la structure HTML, les styles CSS et le JavaScript de `index.html` | MIT | [`LICENSE`](LICENSE) |
-| **Le contenu pédagogique** : les leçons, les règles et leurs explications, les tableaux et les exemples, les sens des mots, les exercices, leurs pièges et leurs messages, les motifs d'erreur. Dans `index.html`, il forme le bloc de données `window.__CONTENU` | CC BY-SA 4.0 | [`LICENSE-CONTENT`](LICENSE-CONTENT) |
+| **The code**: the HTML structure, CSS styles and JavaScript in `index.html` | MIT | [`LICENSE`](LICENSE) |
+| **The learning content**: lessons, rules and their explanations, tables and examples, word meanings, exercises, their distractors and messages, error patterns. In `index.html`, it is the `window.__CONTENU` data block | CC BY-SA 4.0 | [`LICENSE-CONTENT`](LICENSE-CONTENT) |
 
-Pour réutiliser le contenu, il faut :
-- citer *Tinan leNa'vi*, par merry-goblin, avec le lien https://github.com/merry-goblin/tinan-lenavi ;
-- indiquer ce qui a été modifié ;
-- partager le résultat sous la même licence, CC BY-SA 4.0.
+To reuse the content:
+- credit *Tinan leNa'vi*, by merry-goblin, linking to https://github.com/merry-goblin/tinan-lenavi;
+- say what you changed;
+- share the result under the same licence, CC BY-SA 4.0.
 
-Le code peut être réutilisé librement, en gardant la mention de licence MIT.
+The code can be reused freely, keeping the MIT licence notice.
 
-Ce que ces licences ne couvrent pas :
-- **la langue na'vi elle-même** : les licences portent sur la façon dont Tinan l'explique et la fait pratiquer, pas sur ses mots ni sur sa grammaire ;
-- **les sources citées**, qui gardent leurs propres conditions. Le Horen (William S. Annis, éditeur) est sous CC BY-SA 4.0 : c'est l'une des raisons du choix de cette licence pour le contenu ;
-- **les polices** Inter, Space Grotesk et Literata, dans le dossier `fonts`, sous SIL Open Font License 1.1 (licences jointes : `fonts/OFL-*.txt`).
+These licences do not cover:
+- **the Na'vi language itself**: they cover how Tinan explains and practises it, not its words or its grammar;
+- **the sources cited**, which keep their own terms. The Horen (William S. Annis, editor) is under CC BY-SA 4.0, which is one reason that licence was chosen for the content;
+- **the fonts** Inter, Space Grotesk and Literata, in the `fonts` folder, under the SIL Open Font License 1.1 (`fonts/OFL-*.txt`).
 
-## Pour la maintenance
+## Not official
 
-`index.html` est généré, il ne se modifie pas à la main. C'est l'app Tinan, précédée de son contenu (le bloc `window.__CONTENU`). Le même code tourne dans Claude, où il utilise la base de l'artefact, et seul, où il utilise le contenu intégré et garde la progression dans le `localStorage` du navigateur, sous des clés `tinan/<chemin>`.
+Tinan is a personal, non-commercial fan project. It is not affiliated with or endorsed by Disney, 20th Century Studios, Lightstorm Entertainment, Paul Frommer, LearnNavi or Kelutral. *Avatar* and related names belong to their owners.
+
+## For maintenance
+
+`index.html` is generated and is not edited by hand. It is the Tinan app preceded by its content (the `window.__CONTENU` block), with the sharing tags (`og-image.png`) added at build time. The same code also runs inside Claude, where it uses the artifact's database. On its own, it uses the embedded content and keeps progress in the browser's `localStorage`, under `tinan/<path>` keys. Screenshots are in `docs/screenshots`.
