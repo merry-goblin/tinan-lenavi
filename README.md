@@ -13,13 +13,14 @@
 
 ## What it does
 
-Tinan follows a 14-lesson course, from the sounds of the language to holding a conversation. It has 58 grammar rules, 247 words and 595 exercises.
+Tinan follows a 14-lesson course, from the sounds of the language to holding a conversation. The longer lessons are split into short parts of 13 words at most. It has 59 grammar rules, 247 words and 595 exercises.
 
+- **Learn.** Before practising, go through a lesson or a part in sets of four words: discover each word, recognise it, pick it out, then type it. Then each rule, with its examples and one exercise. The words then join your daily reviews.
 - **Daily session.** Flashcards, multiple choice, typed answers, forms to build and labels to place, with spaced review so words come back just before you forget them.
 - **It tracks your mistakes.** A wrong answer is never just "wrong". Tinan tells you what was expected and why, then files the mistake under one of 69 error patterns: lenition forgotten, infix in the wrong place, missing case ending… The pattern stays in your **error log** until you get it right three times in a row.
-- **Free practice.** Pick a lesson, an exercise type or a grammar topic (cases, infixes, lenition, numbers in base 8…).
+- **Free practice.** Pick lessons or parts of lessons, an exercise type or a grammar topic (cases, infixes, lenition, numbers in base 8…).
 - **Sheets and lexicon.** Every rule and word you have studied, with tables and examples.
-- **Lesson tests** to mark a lesson as passed, and **export** of your sheets and progress as Markdown.
+- **Lesson tests** to mark a lesson, or each of its parts, as passed, and **export** of your sheets and progress as Markdown.
 - **Listen.** A link opens the word in the [Reykunyu](https://reykunyu.lu/) dictionary, which has recordings for many words, voiced by Plumps and tsyili.
 
 ## The course

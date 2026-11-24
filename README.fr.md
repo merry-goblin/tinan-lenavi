@@ -13,12 +13,13 @@ Une app web pour s'entraîner au **Na'vi**, la langue créée par Paul Frommer p
 
 <sub>Captures de l'interface en anglais.</sub>
 
-Elle suit un parcours de 14 leçons, des sons de la langue jusqu'à la conversation :
+Elle suit un parcours de 14 leçons, des sons de la langue jusqu'à la conversation. Les leçons les plus longues sont découpées en parties de 13 mots au plus.
 
+- **Apprendre** : avant de s'entraîner, une leçon ou une partie se découvre par paquets de quatre mots (découvrir, reconnaître, retrouver, écrire), puis chaque règle avec ses exemples et un exercice. Les mots rejoignent ensuite les révisions ;
 - **Séance du jour** : cartes de vocabulaire, QCM, saisie et étiquettes à placer, avec révision espacée ;
-- **Entraînement libre** par leçon, type d'exercice ou notion ;
+- **Entraînement libre** par leçon ou partie de leçon, type d'exercice ou notion ;
 - **Carnet d'erreurs** : chaque erreur est classée et revient jusqu'à être maîtrisée ;
-- **Bilans de leçon**, **fiches** de grammaire et de vocabulaire, **lexique** ;
+- **Bilans** de leçon ou de partie, **fiches** de grammaire et de vocabulaire, **lexique** ;
 - **Export** des fiches et de la progression en Markdown.
 
 Après une erreur, « Voir la règle » affiche la règle concernée, avec sa source. Un lien « Écouter » ouvre la page du mot dans le dictionnaire [Reykunyu](https://reykunyu.lu/), qui a des enregistrements pour une partie des mots, avec les voix de Plumps et de tsyili.

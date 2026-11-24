@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://merry-goblin.github.io/tinan-lenavi/sitemap.xml
