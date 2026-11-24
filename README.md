@@ -13,7 +13,7 @@
 
 ## What it does
 
-Tinan follows a 14-lesson course, from the sounds of the language to holding a conversation. The longer lessons are split into short parts of 13 words at most. It has 59 grammar rules, 247 words and 595 exercises.
+Tinan follows a 14-lesson course, from the sounds of the language to holding a conversation. The longer lessons are split into short parts of 13 words at most. It has 59 grammar rules, 247 words and 608 exercises.
 
 - **Learn.** Before practising, go through a lesson or a part in sets of four words: discover each word, recognise it, pick it out, then type it. Then each rule, with its examples and one exercise. The words then join your daily reviews.
 - **Daily session.** Flashcards, multiple choice, typed answers, forms to build and labels to place, with spaced review so words come back just before you forget them.
