@@ -30,6 +30,10 @@ Quelle part du Na'vi officiel Tinan couvre-t-il ? Environ 7,6 % du vocabulaire e
 
 Tinan sert à s'entraîner : les fiches expliquent chaque règle, mais ne forment pas un cours complet. Pour des leçons complètes et des gens avec qui parler, voir [Kelutral](https://kelutral.org/), dont le Discord propose des leçons de Na'vi chaque semaine, et [LearnNavi](https://learnnavi.org/), avec son forum et ses ressources.
 
+## Remerciements
+
+Merci à Talisì, de la communauté Kelutral, pour sa relecture détaillée des quatorze leçons. Beaucoup de corrections de l'app viennent de ses retours.
+
 ## Signaler une erreur
 
 Le bouton « Signaler » d'un exercice ou d'une fiche ouvre un [ticket](https://github.com/merry-goblin/tinan-lenavi/issues) prérempli sur ce dépôt. Il faut un compte GitHub, et le ticket est public.
@@ -40,7 +44,7 @@ Rien n'est envoyé nulle part, et la page ne charge rien depuis un autre site : 
 
 ## Sources
 
-Chaque règle de l'app indique sa source et sa date de vérification. Les références principales sont :
+Chaque règle de l'app donne ses sources, chacune avec un lien. Les références principales sont :
 
 - [Horen Lì'fyayä leNa'vi](https://files.learnnavi.org/docs/horen-lenavi.pdf), la grammaire de référence de LearnNavi ;
 - le [Concise Na'vi Dictionary](https://files.learnnavi.org/dicts/NaviPlainDictionary.pdf) de LearnNavi ;
