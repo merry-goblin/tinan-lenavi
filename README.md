@@ -45,7 +45,7 @@ Tinan is for practice: the sheets explain each rule, but they are not a full cou
 
 ## Every rule is sourced
 
-Na'vi has a careful community and an official source, so Tinan does not make anything up. Each rule shows where it comes from and when it was checked. The main references are:
+Na'vi has a careful community and an official source, so Tinan does not make anything up. Each rule lists its sources, each with a link. The main references are:
 
 - [Horen Lì'fyayä leNa'vi](https://files.learnnavi.org/docs/horen-lenavi.pdf), the reference grammar;
 - the [Concise Na'vi Dictionary](https://files.learnnavi.org/dicts/NaviPlainDictionary.pdf) from LearnNavi;
@@ -54,6 +54,10 @@ Na'vi has a careful community and an official source, so Tinan does not make any
 Also used: [Kelutral](https://kelutral.org/), *[Na'vi in a Nutshell](https://files.learnnavi.org/docs/Navi_in_a_Nutshell.pdf)*, Wikipedia and Wikibooks. Derived forms were checked with the [Reykunyu](https://reykunyu.lu/) conjugator.
 
 The content was prepared with the help of Claude (Anthropic's AI), which was never used as a source.
+
+## Thanks
+
+Thanks to Talisì, from the Kelutral community, for a detailed review of all fourteen lessons. Many of the corrections in the app come from that review.
 
 ## Found a mistake?
 
